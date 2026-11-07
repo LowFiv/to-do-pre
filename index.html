@@ -10,7 +10,7 @@
     <main class="main">
       <section class="to-do">
         <h1 class="to-do__title">Список дел</h1>
-        <form class="to-do__form">
+        <form class="to-do__form" name="add__form">
           <input
             class="to-do__input"
             name="task"
@@ -26,7 +26,7 @@
 
     <template id="to-do__item-template">
       <li class="to-do__item">
-        <span class="to-do__item-text"></span>
+        <span class="to-do__item-text" contenteditable="false"></span>
         <button class="to-do__item-button to-do__item-button_type_edit" aria-label="Редактировать"></button>
         <button class="to-do__item-button to-do__item-button_type_duplicate" aria-label="Копировать"></button>
         <button class="to-do__item-button to-do__item-button_type_delete" aria-label="Удалить"></button>
